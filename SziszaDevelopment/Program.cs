@@ -1,4 +1,5 @@
-﻿using System;
+﻿//using System;
+using NewSystem = System;
 
 namespace SziszaDevelopment
 {
@@ -6,7 +7,7 @@ namespace SziszaDevelopment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            NewSystem.Console.WriteLine("Hello World!");
         }
     }
 }

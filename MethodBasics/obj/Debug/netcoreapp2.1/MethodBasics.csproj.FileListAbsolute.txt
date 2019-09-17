@@ -1,0 +1,10 @@
+C:\Users\a0744861\Desktop\SziszaDevelopment\MethodBasics\bin\Debug\netcoreapp2.1\MethodBasics.deps.json
+C:\Users\a0744861\Desktop\SziszaDevelopment\MethodBasics\bin\Debug\netcoreapp2.1\MethodBasics.runtimeconfig.json
+C:\Users\a0744861\Desktop\SziszaDevelopment\MethodBasics\bin\Debug\netcoreapp2.1\MethodBasics.runtimeconfig.dev.json
+C:\Users\a0744861\Desktop\SziszaDevelopment\MethodBasics\bin\Debug\netcoreapp2.1\MethodBasics.dll
+C:\Users\a0744861\Desktop\SziszaDevelopment\MethodBasics\bin\Debug\netcoreapp2.1\MethodBasics.pdb
+C:\Users\a0744861\Desktop\SziszaDevelopment\MethodBasics\obj\Debug\netcoreapp2.1\MethodBasics.csproj.CoreCompileInputs.cache
+C:\Users\a0744861\Desktop\SziszaDevelopment\MethodBasics\obj\Debug\netcoreapp2.1\MethodBasics.AssemblyInfoInputs.cache
+C:\Users\a0744861\Desktop\SziszaDevelopment\MethodBasics\obj\Debug\netcoreapp2.1\MethodBasics.AssemblyInfo.cs
+C:\Users\a0744861\Desktop\SziszaDevelopment\MethodBasics\obj\Debug\netcoreapp2.1\MethodBasics.dll
+C:\Users\a0744861\Desktop\SziszaDevelopment\MethodBasics\obj\Debug\netcoreapp2.1\MethodBasics.pdb

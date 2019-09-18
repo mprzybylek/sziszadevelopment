@@ -5,7 +5,16 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SziszaDevelopment", "SziszaDevelopment\SziszaDevelopment.csproj", "{3ADB2B08-5B40-4D6D-B1B1-A34E1BFA8C6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodBasics", "MethodBasics\MethodBasics.csproj", "{74B2B71E-E705-471F-95B7-0440D918BA67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBasics", "MethodBasics\MethodBasics.csproj", "{74B2B71E-E705-471F-95B7-0440D918BA67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CsharpIssues", "CsharpIssues", "{BE999690-D8A4-469B-99F0-8DFF956C0E91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhyNotLockWithString", "WhyNotLockWithString\WhyNotLockWithString.csproj", "{7BBC58DA-37DE-4B95-8D25-8D4F8E2AE451}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Articles", "Articles", "{270F2095-AAA7-4C50-951D-61471A3784E0}"
+	ProjectSection(SolutionItems) = preProject
+		Articles\1. Stack vs heap.docx = Articles\1. Stack vs heap.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +30,16 @@ Global
 		{74B2B71E-E705-471F-95B7-0440D918BA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74B2B71E-E705-471F-95B7-0440D918BA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74B2B71E-E705-471F-95B7-0440D918BA67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBC58DA-37DE-4B95-8D25-8D4F8E2AE451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBC58DA-37DE-4B95-8D25-8D4F8E2AE451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBC58DA-37DE-4B95-8D25-8D4F8E2AE451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBC58DA-37DE-4B95-8D25-8D4F8E2AE451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BBC58DA-37DE-4B95-8D25-8D4F8E2AE451} = {BE999690-D8A4-469B-99F0-8DFF956C0E91}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E6D0680-DE03-4DBF-81A4-7D567F06180A}

@@ -9,8 +9,15 @@ namespace MethodBasics
             User user = new User();
 
             user.ShowName();
-            user.sex = "other";
+            //user.ShowProffession();  -  inaccessible level 
+            //user.sex = "other";  - inaccessible level 
+
+
+            user.ShowAddress();
+            
+
             Console.ReadKey();
+
         }
     }
 

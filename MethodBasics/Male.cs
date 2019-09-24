@@ -9,6 +9,12 @@ namespace MethodBasics
         public void SetSex()
         {
             sex = "Male";
+
+        }
+
+        public void ShowUserProffesion()
+        {
+          //  ShowProffession();  //inaccessible level 
         }
     }
 }

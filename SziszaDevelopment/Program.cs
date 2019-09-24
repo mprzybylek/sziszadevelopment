@@ -1,4 +1,5 @@
 ﻿//using System;
+using MethodBasics;
 using NewSystem = System;
 
 namespace SziszaDevelopment
@@ -7,7 +8,13 @@ namespace SziszaDevelopment
     {
         static void Main(string[] args)
         {
-            NewSystem.Console.WriteLine("Hello World!");
+            //User user = new User();  // inaccessible due to internal/undefined class
+
+            Female female = new Female();  // object female from class Female
+
+
         }
+
+      
     }
 }

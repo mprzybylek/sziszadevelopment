@@ -16,7 +16,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Articles", "Articles", "{27
 		Articles\1. Stack vs heap.docx = Articles\1. Stack vs heap.docx
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack vs Heap", "Stack vs Heap\Stack vs Heap.csproj", "{0B393675-DFF2-44E8-B92B-010805718F5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack vs Heap", "Stack vs Heap\Stack vs Heap.csproj", "{0B393675-DFF2-44E8-B92B-010805718F5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{37391C2C-FF2E-4739-998E-376224BF0EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{BFB1C835-A6C0-4444-9548-92ADF67E9B5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,12 +44,17 @@ Global
 		{0B393675-DFF2-44E8-B92B-010805718F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B393675-DFF2-44E8-B92B-010805718F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B393675-DFF2-44E8-B92B-010805718F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB1C835-A6C0-4444-9548-92ADF67E9B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB1C835-A6C0-4444-9548-92ADF67E9B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB1C835-A6C0-4444-9548-92ADF67E9B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB1C835-A6C0-4444-9548-92ADF67E9B5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7BBC58DA-37DE-4B95-8D25-8D4F8E2AE451} = {BE999690-D8A4-469B-99F0-8DFF956C0E91}
+		{BFB1C835-A6C0-4444-9548-92ADF67E9B5B} = {37391C2C-FF2E-4739-998E-376224BF0EB3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E6D0680-DE03-4DBF-81A4-7D567F06180A}

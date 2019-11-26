@@ -9,6 +9,8 @@ namespace Loops
 
         static void Main(string[] args)
         {
+
+
             //for(int i = 0;i<=10;i=i+1)
             //{
             //    //Console.WriteLine($"i= "+i);

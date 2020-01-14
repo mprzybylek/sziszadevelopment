@@ -22,23 +22,49 @@ namespace NameInFrame
         }
         public void DrawSquare(int size)
         {
-            for (int i = 0; i <= size; i++)
-            {
-                Console.Write("\n");
-                
-                for (int j = 0; j < size; j++)
-                {
-                    int z = i + j + 1;
-                    Console.Write($"{z}\n");
+            //for (int i = 0; i <= size; i++)
+            //{
+            //    Console.Write("\n");
 
-                }
-            }
+            //    for (int j = 0; j < size; j++)
+            //    {
+            //        int z = i + j + 1;
+            //        Console.Write($"{z}\n");
 
-            Console.ReadKey();
+            //    }
+            //}
+
+            //Console.ReadKey();
             //Console.WriteLine($"{_topLeft}{_horizontal}{_topRight}");
             //Console.WriteLine($"{_vertical}{_vertical}");
             //Console.WriteLine($"{_bottomLeft}{_horizontal}{_bottomRight}");
             //Console.ReadKey();
+
+            int slash = size - 1;
+            int backslash = 0;
+
+            for (int i = 0; i < size; i++)
+            {
+                Console.Write("\n");
+
+                for (int j = 0; j < size; j++)
+                {
+                    if (j == slash) Console.Write("/");
+                    else if (j == backslash) Console.Write("\\");
+                    else Console.Write(0);
+
+                    //if (i == j|| size - i==j+1) Console.Write(1);
+                    //else Console.Write(0);
+
+                    //int z = i + j + 1;
+                    //Console.Write($"{z}\t");
+
+                }
+
+                backslash++;
+                slash--;
+
+            }
         }
     }
 }

@@ -8,6 +8,10 @@ namespace NameInFrame
         {
             Frame Box = new Frame();
             Box.DrawSquare(10);
+            Box.DrawSquare(5);
+
+            Console.ReadKey();
         }
+
     }
 }

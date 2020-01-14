@@ -13,8 +13,16 @@ namespace Stack_vs_Heap
 
             MyClass myClass1 = new MyClass(8);
             MyClass myClass2 = new MyClass(10);
+            MyClass myClass3 = new MyClass("test");
+            MyClass myClass4 = new MyClass(10.2f);
             myClass1 = myClass2;
             myClass2.value = 15;
+            //myClass1.MyProperty = 5;
+
+            //myClass1[3];
+            Console.WriteLine(myClass1[3]);
+
+            Console.WriteLine(myClass1.MyProperty);
 
             ChangeValue(myClass1);
             ChangeValue(valueToChange);
@@ -34,7 +42,7 @@ namespace Stack_vs_Heap
             Console.WriteLine(testStructObj);
             Console.WriteLine(testStructObj.TestField);
 
-
+            Console.ReadKey();
 
         }
 

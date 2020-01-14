@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "MethodBasics/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/MethodBasics.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MethodBasics.dll": {}
+        }
       }
     }
   },
@@ -520,7 +530,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
+      "sha512": "GmkKfoyerqmsHMn7OZj0AKpcBabD+GaafqphvX2Mw406IwiJRy1pKcKqdCfKJfYmkRyJ6+e+RaUylgdJoDa1jQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
@@ -680,31 +690,37 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "MethodBasics/1.0.0": {
+      "type": "project",
+      "path": "../MethodBasics/MethodBasics.csproj",
+      "msbuildProject": "../MethodBasics/MethodBasics.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "MethodBasics >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a0744861\\.nuget\\packages\\": {},
+    "C:\\Users\\a0742643\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a0744861\\Desktop\\SziszaDevelopment\\SziszaDevelopment\\SziszaDevelopment.csproj",
+      "projectUniqueName": "C:\\Users\\a0742643\\Documents\\sziszadevelopment\\SziszaDevelopment\\SziszaDevelopment.csproj",
       "projectName": "SziszaDevelopment",
-      "projectPath": "C:\\Users\\a0744861\\Desktop\\SziszaDevelopment\\SziszaDevelopment\\SziszaDevelopment.csproj",
-      "packagesPath": "C:\\Users\\a0744861\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a0744861\\Desktop\\SziszaDevelopment\\SziszaDevelopment\\obj\\",
+      "projectPath": "C:\\Users\\a0742643\\Documents\\sziszadevelopment\\SziszaDevelopment\\SziszaDevelopment.csproj",
+      "packagesPath": "C:\\Users\\a0742643\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\a0742643\\Documents\\sziszadevelopment\\SziszaDevelopment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\a0744861\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\a0742643\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -716,7 +732,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\a0742643\\Documents\\sziszadevelopment\\MethodBasics\\MethodBasics.csproj": {
+              "projectPath": "C:\\Users\\a0742643\\Documents\\sziszadevelopment\\MethodBasics\\MethodBasics.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -729,6 +749,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

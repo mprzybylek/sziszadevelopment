@@ -24,7 +24,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{01DE2430-D5F3-4FAF-895F-062B5C26CA5D}"
 EndProject
+<<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCII Table", "ASCII Table1\ASCII Table.csproj", "{7A750F06-5974-42BC-AC8E-0131920999F8}"
+=======
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASCII Table", "ConsoleApp1\ASCII Table.csproj", "{0E52241B-3A90-4C88-8725-D4502C9C2C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameInFrame", "NameInFrame\NameInFrame.csproj", "{FA4DBE36-DE20-4D9C-B783-FB6D224A285B}"
+>>>>>>> Stashed changes
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,10 +62,21 @@ Global
 		{01DE2430-D5F3-4FAF-895F-062B5C26CA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01DE2430-D5F3-4FAF-895F-062B5C26CA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01DE2430-D5F3-4FAF-895F-062B5C26CA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
 		{7A750F06-5974-42BC-AC8E-0131920999F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A750F06-5974-42BC-AC8E-0131920999F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A750F06-5974-42BC-AC8E-0131920999F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A750F06-5974-42BC-AC8E-0131920999F8}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{0E52241B-3A90-4C88-8725-D4502C9C2C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E52241B-3A90-4C88-8725-D4502C9C2C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E52241B-3A90-4C88-8725-D4502C9C2C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E52241B-3A90-4C88-8725-D4502C9C2C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4DBE36-DE20-4D9C-B783-FB6D224A285B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4DBE36-DE20-4D9C-B783-FB6D224A285B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4DBE36-DE20-4D9C-B783-FB6D224A285B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4DBE36-DE20-4D9C-B783-FB6D224A285B}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,7 +84,12 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7BBC58DA-37DE-4B95-8D25-8D4F8E2AE451} = {BE999690-D8A4-469B-99F0-8DFF956C0E91}
 		{BFB1C835-A6C0-4444-9548-92ADF67E9B5B} = {37391C2C-FF2E-4739-998E-376224BF0EB3}
+<<<<<<< Updated upstream
 		{7A750F06-5974-42BC-AC8E-0131920999F8} = {37391C2C-FF2E-4739-998E-376224BF0EB3}
+=======
+		{0E52241B-3A90-4C88-8725-D4502C9C2C11} = {37391C2C-FF2E-4739-998E-376224BF0EB3}
+		{FA4DBE36-DE20-4D9C-B783-FB6D224A285B} = {37391C2C-FF2E-4739-998E-376224BF0EB3}
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E6D0680-DE03-4DBF-81A4-7D567F06180A}

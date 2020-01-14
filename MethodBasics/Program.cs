@@ -25,9 +25,7 @@ namespace MethodBasics
             mirella.SetAge(18);
 
             Person.DisplayCounter();
-
-
-
+                        
 
             Person cecylia;
             cecylia = new Person();
